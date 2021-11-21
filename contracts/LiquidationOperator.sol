@@ -168,10 +168,6 @@ contract LiquidationOperator is IUniswapV2Callee {
 //    IUniswapV2Pair pair_WBTC_WETH = IUniswapV2Pair(factory.getPair(address(WBTC), address(WETH)));
 //    IUniswapV2Pair pair_DAI_USDT  = IUniswapV2Pair(factory.getPair(address(DAI), address(USDT)));
 
-    // TODO: Remove before deployment.
-    event Log (
-           bytes );
-
 
     // some helper function, it is totally fine if you can finish the lab without using these function
     // https://github.com/Uniswap/v2-periphery/blob/master/contracts/libraries/UniswapV2Library.sol
